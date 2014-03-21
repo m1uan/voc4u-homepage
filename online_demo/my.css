@@ -1,0 +1,126 @@
+/* Put your custom CSS here */
+#popupErrorNetworkMessage {
+	margin: 40px;
+}
+
+
+
+#langList img {
+	margin:15px;
+	height:40px;
+}
+
+#select_i_am{
+	font-size:x-large;
+}
+
+.langName {
+	font-size: normal;
+	margin-top:15px;
+}
+
+#learn_area {
+	/*text-align: centred;*/
+	position:relative;
+	padding: 5px;
+	
+	font-weight: bold;
+	font-size: xx-large;
+	
+	margin-bottom:30px;
+}
+
+#learn_word {
+	position:relative;
+}
+
+#learn_area img {
+	width: 40px;
+	margin: 3px;
+	vertical-align: middle;
+	position:relative;
+}
+
+.answer {
+	padding: 15px;
+}
+
+#score_area {
+	margin:10px;
+	height:60px;
+	width:98%;
+	
+}
+
+#extra_score_area {
+	float:left;
+	width:100%;
+	margin-top:-30px;
+}
+.score_title {
+	font-size:small;
+}
+
+#score{
+	font-weight:bold;
+	font-size:xx-large;
+}
+#score_plus {
+	font-size:large;
+	color:DarkGreen;
+	font-weight:bold;
+	display:none;
+	margin-top:20px;
+	margin-left:-5px;
+	
+	float:left;
+}
+
+#count_plus {
+	font-size:large;
+	color:DarkGreen;
+	font-weight:bold;
+	/*display:none;
+	*/
+	margin-top:20px;
+	margin-left:5px;
+	
+}
+#count {
+	font-size:xx-large;
+}
+
+
+h2 {
+	margin: 10px;
+}
+
+#lastWords{
+	position:absolute;
+	bottom:0%;
+	width:100%;
+	
+}
+
+.left img, .right img {
+	width:20px;
+	margin:8px;
+	vertical-align: middle;
+}
+
+#lastWords .line {
+	margin:5px;
+	
+}
+
+.left {
+	float:left;
+	font-weight:bold;
+}
+
+.right {
+	text-align:right;
+	margin-left: auto;
+	margin-right:0px;
+	
+}

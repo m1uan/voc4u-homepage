@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<!-- <link rel="stylesheet"
+	href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+ -->
+ <link rel="stylesheet"
+	href="jquery.mobile-1.2.0.min.css" />
+
+    
+<link rel="stylesheet" href="my.css" />
+<style>
+/* App custom styles */
+</style>
+<script
+	src="jquery-1.7.2.min.js">
+	
+</script>
+<script
+	src="jquery.mobile-1.2.0.min.js">
+	
+</script>
+<script type="text/javascript" src="jquery.timer.js"></script>
+<script src="my.js">
+	
+</script>
+</head>
+<body>
+	<!-- Home -->
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id))
+				return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/cs_CZ/all.js#xfbml=1&appId=184157091711392";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<div data-role="page" id="page1">
+		<div data-theme="b" data-role="header">
+			<h5>Voc4u - web free version</h5>
+		</div>
+		<div data-role="content">
+
+			<ul data-role="listview" data-divider-theme="b" data-inset="true"
+				id="langList">
+				
+
+
+			</ul>
+		</div>
+
+
+		<div data-role="popup" id="popupErrorNetwork">
+			<div data-role="header">
+				<h1>Network Error</h1>
+			</div>
+			<div id="popupErrorNetworkMessage"></div>
+		</div>
+	</div>
+	<div data-role="page" id="page2">
+		<div data-theme="b" data-role="header">
+			<h5>Voc4u - free version</h5>
+
+		</div>
+		<center>
+		<div id="learn_area">
+			<img src="../images/flags/flag_cs.png" id="learn_flag">
+			<span id="learn_word">ahoj</span>
+		</div>
+		</center>
+		<div id="score_area">
+			<div class="left">
+				<center>
+				<div class="score_title">SCORE</div>
+				<span id="score">0</span>
+				</center>
+				
+			</div>
+			<div id="score_plus">+1</div>
+			<center id="extra_score_area">
+			<span>Congratualtions! 10 true answer straight!+30points</span>
+			<!-- <span>Congratualtions! 5 true answer straight!+10points</span>
+			<span>Congratulations! 3 true answer less then 5seconds +50points</span>
+			<span>bad answer! dont worry try else options!</span>
+			<span>bad answer 1 second but -1point</span>
+			<span>2 bad answer +10 seconds bud -2points</span> -->
+		</center>
+		
+		<center class="right">
+			<div class="score_title">TIME</div>
+			
+			<span id="count">0</span>
+			</center>
+			
+			
+		</div>
+		<div id="debug">debug</div>
+		
+		
+		<a href="#" data-role="button" class="answer" id="word1">Link
+			button</a> <a href="#" data-role="button" class="answer" id="word2">Link
+			button</a> <a href="#" data-role="button" class="answer" id="word3">Link
+			button</a>
+		
+		<div id="lastWords">
+		<!-- <div class="line">
+			<div class="left"><img src="../images/flags/flag_cs.png"/>ahoj</div>
+			<div class="right">hello<img src="../images/flags/flag_de.png"/></div>
+			</div>
+			<div class="line">
+			<div class="left"><img src="../images/flags/flag_cs.png"/>ahoj</div>
+			<div class="right">hello<img src="../images/flags/flag_de.png"/></div>
+			</div> -->
+		</div>
+		
+	</div>
+	<div data-role="page" id="page3">
+		<div data-theme="b" data-role="header">
+			<h5>Voc4u - online free version</h5>
+
+		</div>
+		<h1 id="score_area">
+			Your score : <span id="conclusion_score">0</span>
+		</h1>
+
+		<a id="btn_try_again" data-role="button" data-transition="none"
+			href="#"> Try Web-Free again </a>
+		<h3>Chyby které jste udělali:</h3>
+			<div id="wrongList"></div>
+		<h4>Opište si je a procvičujte si je
+		například po cestě do práce nebo do školy. 
+		Pokud se vám nechce nic opisovat využíte naši mobilní aplikaci!</h4>	
+		<a data-role="button" data-transition="none"
+			href="https://play.google.com/store/apps/details?id=com.voc4u.silver"
+			target="blank"> Download Full Version </a> <a data-role="button"
+			data-transition="none"
+			href="https://play.google.com/store/apps/details?id=com.voc4u"
+			target="blank"> Download Free Version </a>
+
+		<div id="facebook" class="fb-like"
+			data-href="http://www.facebook.com/pages/Vocabulary-Voc4u/325107990867953"
+			data-send="false" data-layout="button_count" data-width="300"
+			data-show-faces="true" data-font="tahoma" data-colorscheme="dark"
+			data-action="recommend"></div>
+
+	</div>
+	<script>
+		
+	</script>
+</body>
+</html>
