@@ -165,6 +165,130 @@ app.config(function ( $translateProvider, $locationProvider) {
         text5 : "С приложением Voc4u такое сложное дело как изучение инстранного языка может стать веселым! :)"
     });
 
+    $translateProvider.translations('poland', {
+        'HELLO': 'Hello',
+        'text1' : 'Poszerzaj swoje słownictwo z Voc4! Dzięki prostym technikom nauczania i grom pamięciowym możesz doskonalić swoje umiejętności nawet w drodze do szkoły albo czekając na piwo w lokalnym barze</p><p>',
+        'text2' :"<h2 id=”lang_shortcat”>Voc4u in shortcut</h2>\
+        więcej niż 10 tysięcy słów <br/>\
+        więcej niż 6 tysięcy obrazków <br/>\
+    32 języki <br/>\
+    3 rodzaje gier edukacyjnych <br/>\
+    37 poziomów trudności <br/>\
+    Po pobraniu możesz używać online <br/>\
+    Porównaj swoje wyniki z wynikami innych graczy <br/>\
+    Posłuchaj wymowy w Android Text To Speech<br/>\
+    Poćwicz wymowę w Android speech to text <br/>\
+    aktywny bez rejestracji <br/>\
+        <br/><br/>\
+    + Korespondencja z użytkownikami uczącymi się tego samego języka pozwoli ci osiągnąć jeszcze lepsze wyniki w nauce. </p>",
+        is_not_translator: "Voc4u nie jest słownikiem, Voc4u nie jest tłumaczem;-)",
+        thank_for_download: "Dziękujemy za pobranie i życzymy ci powodzenia we wszystkim co robisz, spotkania wielu dobrych ludzi, spełnienia marzeń, życia pełnego miłości i przede wszystkim zdrowia.",
+        want_to_learn_new_language:"Chcesz rozpocząć naukę…",
+        text3: "...lub pracować z językiem obcym, który już znasz? Dlaczego nie skorzystasz z aplikacji Voc4u Vocabulary Trainer na Androida, która oferuje ci interesującą formę nauki aż 33 języków obcych? Dla dowolnego języka otrzymujesz ponad 40 lekcji, z których każda zawiera więcej niż 250 słów i 100 pomocnych ilustracji. </p><p>",
+        text4: "Po pierwszym uruchomieniu musisz wybrać język, którego chcesz się uczyć, jak również swój język rodzimy. Liczba możliwych kombinacji jest ogromna. Dostępne są języki takie jak francuski, niemiecki, hiszpański, portugalski ale i mniej popularne jak indonezyjski, chiński, czy wietnamski. <span class=”bez_błędu_proszę”>Upewnij się, że poprawnie ustawiłeś języki, w innym wypadku Android Text-to-speech będzie używał twojego języka rodzimego i nie poradzisz sobie z większością gier.</span>",
+        train_title: "Train",
+        train_text: "Najistotniejsze elementy Voc4u odkryjesz klikając klawisz Trenuj. Tutaj będziesz<b>powtarzać na głos</b> tłumaczyć<b>słowo</b> na górze w niebieskim pasku (na górze) albo przynajmniej w myślach. Jeśli nie znasz słowa, lub nie jesteś go pewny, naciśnij klawisz “nie znam”. Jeśli będziesz używać aplikacji w sposób poprawny (zgodnie z rzeczywistością wybierać opcje “znam” i “nie znam”) aplikacja będzie częściej powtarzać słowa, które sprawiają ci problem. Ważną funkcją jest też<b>powtarzanie</b> słów zapisanych na czerwono <b>kolor</b>. To trochę jak zapisywanie słów na kartce, zakrywanie jednej strony dłonią i zgadywanie, co znajduje się pod nią. W odróżnieniu do kartki, słownictwo w aplikacji zmienia się dynamicznie w zależności od poczynionych postępów.",
+        dictionary_title : "Słownik",
+        dictionary_text : "Aplikacja może pomóc ci w nauce na wiele różnych sposobów… po zainstalowaniu nowa lekcja (zawierająca zazwyczaj ponad 250 słów) zostaje rozdzielona na <b>część treningową</b> i <b>poczekalnię</b> tak, aby umożliwić ci stopniowe przyswajanie wiedzy. Proporcjonalnie do twoich postępów aplikacja będzie przenosiła słowa z poczekalni do części treningowej. W sekcji Słownik możesz modyfikować tę procedurę, zarządzać lekcjami (instalować je lub usuwać) oraz przenosić słowa pomiędzy częścią treningową a poczekalnią. Elementy można usuwać, ale przede wszystkim <b>dodawać</b>własne <b>słownictwo</b>.",
+        games_title : "Nauka poprzez zabawę",
+        games_text : "Nazywany nauczycielem narodów Jan Amos Komensky powiedział, że nauka jest jak gra. Dlaczego więc nie uczyć się efektywniej poprzez gry? Vocabulary Voc4u oferuje 3 rodzaje gier, w których mierzony jest czas wyboru odpowiedniej <b>ilustracji</b> lub <b>tłumaczenia</b>słowa. Odrobinę trudniejsze może być zapamiętywanie poprzez r<b>zapisywanie</b>.\
+        jeśli nie jesteś pewien tłumaczenia poczekaj siedem sekund i powiadom nas o tym! Dzięki Twojej pomocy Voc4u może stać się najlepszą bazą wiedzy, jaka istnieje.\
+            ...Szybkość twoich reakcji oraz prawidłowe odpowiedzi są punktowane. Na tej podstawie możesz porównywać swoje wyniki z rezultatami innych użytkowników na całym świecie. Punktacja, którą uzyskasz pozwoli ci zbudować reputację i przejść na kolejne poziomy trudności.\
+        Możesz również zgromadzić wszystkie słowa, w których popełniłeś błąd i dodać je do swojej części treningowej.",
+        speaker_listener_title : "Speaker and Listener",
+        speaker_listener_text : "Speaker powtarza nowe słowa, które ty starasz się przetłumaczyć. Ten tryb nauki jest idealny w sytuacjach, kiedy nie możesz używać ekranu, na przykład podczas prowadzenia samochodu. Voc4u Trainer może działać również odwrotnie: kiedy ty mówisz do mikrofonu Android speech-to-text listening ocenia poprawność twojej wymowy.",
+        chat_title : "Rozmowa",
+        chat_text : "Do najważniejszych funkcji Voc4u należy również Sieć, gdzie uczysz się języka rozmawiając z pozostałymi uczestnikami. Możesz tu stworzyć własny profil, dzięki któremu inni znajdą ciebie, lub sam skontaktujesz się z wybranymi osobami. Profil będzie informował o twojej reputacji (uzyskanej w grach), dzięki czemu kontaktować się będą z tobą użytkownicy o podobnych zdolnościach językowych.",
+        text_to_speech_title: "Wymowa",
+        text_to_speech_text: 'Możesz posłuchać jak brzmi poprawna wymowa nowych słów w Voc4uTraining oraz w Play. It is by Google Android Text To <b>Speech engine</b>. Aby uzyskać lepszą jakość dźwięku możesz wypróbować syntezator od innego producenta <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . Powyższe syntezatory zawierają duży wybór języków, zazwyczaj także różne głosy.',
+        text5 : "Z aplikacją Voc4u nawet nauka trudnego języka może być dobra zabawą! :-)"
+
+    });
+
+    $translateProvider.translations('portugal', {
+        'HELLO': 'Hello',
+        'text1' : 'Exercita o seu vocabulário com Voc4u, usando uma técnica simplex de repetição iterativa ou usando jogos simples,por exemplo, no trem indo para a escola ou enquanto espera por uma cerveja :-)',
+        'text2' :"<h2 >Voc4u em poucas palavras</h2>\
+        more 1Até 10 mil palavras <br/>\
+        Até 6mil imagens educativas <br/>\
+        32 Línguas estrangeiras <br/>\
+    3 modos de jogo para uma fácil repetição <br/>\
+    37 Nívels de dificuldade <br/>\
+    Tudo disponível offline.* <br/>\
+    Comparando os seu resultados com outros <br/>\
+    Ouvir vocabulário com ajuda Android text to speech <br/>\
+    Treinamento com ajuda da pronúncia Android text to speech <br/>\
+    Ele funciona sem registro <br/>\
+    </p><p>\
+    + Envie suas mensagens entre os usuários na lingua que você está aprendendo e aprofundam o seu vocabulário mutuamente.</p>",
+        is_not_translator: "Voc4u não é dicionário, Voc4u não e tradutor;-)",
+        thank_for_download: "Obrigado pelo download e desejos exceto  muitas palavras aprendidas, e também que vai  konseguir tudo o que você toca.Ao seu lado tem so excelentes pessoas.Que vai realizar  tudo o que você deseja, tem cheio de amor e principalmente boa saúde.",
+        want_to_learn_new_language:"Gostaria de aprender uma nova língua …",
+        text3: "...Ou talvez apenas melhorar a linguagem que já sabe? Por que não aproveitar a aplicação Vocabulário Voc4u através do qual você pode praticar o vocabulário de uma forma divertida e direto em 33 linguas! O aplicativo contém mais de 40 lições e cada um deles são mais de 250  palavras e 100 imagens.",
+        text4: "No primeiro arranque vai escolher a lingua em que você quiser praticar vocabulário e em seguida, sua língua nativa. É possível combinar livremente todos os idiomas disponíveis. A parte da aplicação e, por exemplo, Checo, Inglês, Alemão, Espanhol, Português, mas também menos comum árabe, grego ou mesmo hebraico e muitos mais. <span class='not_mistake_please'> mas verifique de que, você digitou ensino direito e lingua  nativa, ou vai vocabulário Voc4u e funcionalidade de voz text-to-speach repetir palavras  em sua lingua nativa, além disso a maioria dos jogos perdem o sentido.</span>",
+        train_title: "Treinamento",
+        train_text: "A parte mais importante Voc4u fica abaixo do botão Treina. Aqui para  você <b>palavras  são repetidas </b> e sua missão é dizer em voz alta <b>  tradução da palavra </b> na faixa azul (em cima) ou pelo menos em espírito. Se você falhar ou  não vai tiver certeza , use botão 'desconhecido'. Se você vai usar os botões  'conhecido' e 'desconhecido' correto, aplicação que a recompensa vai repetir mais palavras que você não sabe muito. É muito importante <b>repetir </b>as palavras marcadas em <b>vermelho </b>.\
+        Isto é análogo a escrever palavras no papel e combiná-los com a diferença de que a ordem das palavras mudam dinamicamente dependendo como você sabe disso..</p>",
+        dictionary_title : "Dicionário",
+        dictionary_text : "Aplicação sabe muito mais depois de instalar a lição (que normalmente tem  de mais de 250palavras) É dividido <b> folha de treinamento </b> e <b> lista de espera </b>, isso é porque para não comesar treinar todas as palavras de  lição de vocabulário imediatamente, mas  muito lentamente. Dependendo de como  você age com o aprendizado do aplicativo automaticamente adiciona mais palavras. Em secção  dicionário, mas você pode mudar o comportamento,  também movimento das  palavras entre a formação ea lista de espera e vice-versa, ou eliminá-los completamente. Instalar e lição de desinstalação. Você mais aprecia a oportunidade de adicionar <b>suas próprias palavras. </b>",
+        games_title : "Ensino de jogo",
+        games_text : "Jan Amos Comenius disse,“ Peça da escola“, vamos  adoçar portanto a aprendizagem através da brincadeira.\
+        Todos os três tipos de jogos que o vocabulário 'Voc4u' contém,são limitados no tempo.\
+            No primeiro jogo <b> atribui </b> palavras para fotos, no segundo jogo você escolhe as palavras e no último jogo você vai completar as palavras que faltam. Depois de cada jogo que é jogado também on-line você pode comparar <b> escores </b> com outros jogadores. Cada jogo vai aumentar a global <b> reputação </b> global, que acompanha  você, em todo o aplicativo. E você pode escolher o nível de seus conhecimentos e praticar vocabulário,que corresponde os conhecimentos de você..",
+        speaker_listener_title : "konferencista e ouvinte",
+        speaker_listener_text : "Em parte 'ouvinte' as palavras são reproduzidas e você está tentando palavras traduzir, é particularmente útil em situações onde você não pode reagir ao que está acontecendo na tela, por exemplo  durante de condução. Aplicações pode faser a vice-versa, quando você diz uma palavra sobre o telefone e ele tenta discernir se pronuncia corretamente. </p>",
+        chat_title : "Conversa",
+        chat_text : "Entre extraordinária função  inclui a capacidade de conversar com outros usuários, o que também ajuda a melhorar o idioma.Simplismente você vai dar uma espécie de <b> anúncio </b>, em que outros usuários podem fazer login. Parte do anúncio é também a sua reputação (derivado de acordo com a pontuação em jogos),assegurando, que  você vai comunicar só com <b>  usuários em um nível semelhante </b>, assim como você. E você não vai se complicar as coisas com nível diferente.",
+        text_to_speech_title: "Speech pronunciation",
+        text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
+        text5 : "Com aplicaçaõ Voc4u pode ser instrução intensiva da língua estrangeira divertido! :-)"
+
+    });
+
+    $translateProvider.translations('france', {
+        'HELLO': 'Hello',
+        'text1' : 'Practise vocabulary with Voc4u with its simple learning techniques or with simple memorization games, for example in train to school or waiting to beer.',
+        'text2' :"<h2 >Voc4u in shortcut</h2>\
+\
+        more 10 thousand words <br/>\
+            more 6 thousand learning pictures <br/>\
+            32 Language <br/>\
+        3 type of learning game <br/>\
+    37 levels by difficulty <br/>\
+    All you can use online.* <br/>\
+    Check you score with other players <br/>\
+    Listen words by Android Text To Speech<br/>\
+    Train spech by Android speech to text <br/>\
+    works without registration <br/>\
+        <br/><br/>\
+    + Messaging with users they are learning the same language like you and you can improve vocabulary together. </p>",
+        is_not_translator: "Voc4u is not dictionary, Voc4u is not translator;-)",
+        thank_for_download: "Thank you for download and I hope you do well in whatever you do, you are surrounded by only nice people, your wishes will come true, you have a life full of love and mainly you are healthy",
+        want_to_learn_new_language:"Want to learn new language…",
+        text3: " … or just improve second language? Why don’t try app Voc4u Vocabulary Trainer, where you will practicing wors with interest form and in 33 languages. All languages contain more that 40 lesson, in each lesson is more thant 250 words and 100 learingn images.",
+        text4: "In first run you have to choice language to practice and then your native language. With all contained languages you can do all possible combination. Between languages belongs French, German, Spain, Portugal or not so common languages like Indonesian, Chinese or for example Vietnamese and much more. <span class=”not_mistake_please”>Be sure you are choiced the right lang you want to learn and your native otherwise the Android Text-to-speech will be speaking in your native language and most of games will misbehave.</span>",
+        train_title: "Train",
+        train_text: "Most important part of Voc4u is hidden under button Train. Here you will <b>loudly memorize</b> translation of <b>word</b> on top in blue bar (on top) or at-least in your memory. If you can’t or you are not sure about translation, press the “don’t know” button. If you will use the app in right way (right use buttons “know” and “don’t know”) the app will repeat the words you’ve had trouble with more ofen. Important is also allways <b>repeat</b> the words marked by red <b>color</b>. Actualy is similar like write down vocabulary into paper and hide one side by hand and try guess what is under hand, but with difference the paper is dinamicaly change how progress you do.",
+        dictionary_title : "Dictionary",
+        dictionary_text : "Application can do for you training much more… after install new lection (which have usually more than 250 words) is splitted into <b>train list</b> and <b>waiting list</b> for not repeat all words altogether,but practice it step by step. How big progress you are doing the app will automatically add bunch of new words from waiting list. In section Dictionary you can manage lessons (installing, uninstalling), set up automatically behavior or moving words between train and waiting list. You can also words permanently delete , but what you appreciate more is <b>add</b> your <b>custom words</b>.",
+        games_title : "Learn by games",
+        games_text : "Teacher of nations Jan Amos Comenius did say school by game, so why not make learning easier with games. Vocabulary Voc4u contain 3kind games where you have limited time to choose the right <b>picture</b> or correct <b>translation</b> of a word. A bit more difficult but much better-memorizing game is the <b>spelling</b> game.\
+\
+        maybe your are not sure about a translation, wait seven second and report it! Thank you for your help because thats keeps the words database best ever.\
+\
+       ...How quickly you answer and the number of correct words you get, gives a score which you can be compared with other learners across the world. Score you are reach help to increase your reputation to open next levels.\
+\
+        You can also look at mistakes you have made and add them to your train list.",
+        speaker_listener_title : "Speaker and Listener",
+        speaker_listener_text : "In Speaker are repeatedly spoken words and you are trying translate it like in train-mode, that have advantage in moment when you can reacting with behave on display, for example during drive a car. The Voc4u Trainer can do also opposite you speak into device and Android speech-to-text listening try recognize your right pronunciation.",
+        chat_title : "Chat",
+        chat_text : "Between top function also belongs Voc4u Network where you will chat with other users, and you will improve language altogether. You will create a your-self-advertise and other user can find you and contact you or you can contact others. Advertise contain your reputation (based on games) as well, that will provide you will chat just with the user or similar language-level like you and will not disturbing you during conversation.",
+        text_to_speech_title: "Speech pronunciation",
+        text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
+        text5 : "With application Voc4u can be the difficult language learing fun! :)"
+
+    });
+
     $translateProvider.useStaticFilesLoader({
         prefix: 'ajax/locale-',
         suffix: '.json'
