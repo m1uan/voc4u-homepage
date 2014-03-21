@@ -87,6 +87,84 @@ app.config(function ( $translateProvider, $locationProvider) {
         text5 : "Mit der App Voc4u kann es Spaß machen eine schwierige Sprache zu lernen! :)"
     });
 
+    $translateProvider.translations('czech', {
+        'HELLO': 'Hello',
+        'text1' : 'Procvič si slovíčka s Voc4u, pomocí jednoduché opakovací techniky či pomocí jednoduchých her, například ve vlaku do školy nebo při čekání na pivo:-)',
+        'text2' :"<h2 id='lang_shortcat'>Voc4u ve zkratce</h2>\
+        Až 10 tisic slovíček <br/>\
+            Až 6 tisic naučných obrázků <br/>\
+            32 Cizích jazyků <br/>\
+            3 herni rezimy pro snadne opakovani <br/>\
+        37 Levelu podle optiznosti <br/>\
+    Vše dostupné offline.* <br/>\
+    Porovnani vaseho vysledku s ostatnimi <br/>\
+    Poslech slovicek pomoci Android text to speech <br/>\
+    Trénování výslovnosti pomocí Android text to speech <br/>\
+    Funguje bez registrace <br/>\
+    </p><p>\
+    + Posilej si zpravy mezi uživateli v jazyku ktery se učís a prohlubujte si slovni zasobu navzajem.\
+    </p>",
+        is_not_translator: "Voc4u neni slovnik, Voc4u neni prekladac;-)",
+        thank_for_download: "Dekuju za download a preju krome hodne naucenych slovicek, take at se Ti dari vsecko na co sahnes, mas kolem sebe jen skvele lidi, splni se Ti vsecko co si prejes, mas plno lasky a hlavne mas plno zdravi!",
+        want_to_learn_new_language:" Chtěli byste se naučit nový jazyk…",
+        text3: "… nebo si snad jen zdokonalit řeč, kterou už umíte? Proč k tomu nevyužít aplikaci Slovíčka Voc4u, díky které si můžete procvičovat slovíčka zábavnou formou a to rovnou ve 33 jazycích! Aplikace obsahuje přes 40 lekcí a v každé z nich je přes 250 slov a sto obrázků.",
+        text4: "Při prvním spuštění si zvolíte jazyk ve kterém si chcete procvičovat slovíčka a poté váš rodný jazyk. Přitom je možné libovolně kombinovat všechny dostupné jazyky. Součástí aplikace je například čeština, angličtina, němčina, španělština, portugalština, ale také méně obvyklá arabština, řečtina nebo třeba hebrejština a mnohé další. <span class=”not_mistake_please”>Raději se ujisti, že jsi zadal spravný učený a rodný jazyk, jinak Ti bude slovníček Voc4u a hlasová funkce text-to-speach opakovat slovíčka v Tvém odném jazyku, mimo to většina her stratí smysl.</span>",
+        train_title: "Trenink",
+        train_text: 'Nejdůležitější částí Voc4u se skrývá pod tlačítkem Trénuj.  Zde se Vám <b>slovíčka opakují</b> a Tvým úkolem je si nahlas <b>říci překlad slovíčka</b> v modrém pruhu (nahoře) nebo alespoň v duchu. Pokud se vám to nepovede nebo si nejste uplně jistí, použijete tlačítko “neznám”. Pokud budete tlačítka “znám” a “neznám” používat správným způsobem aplikace se Vám odvděčí tím že vám bude opakovat více slovička, která vám tolik nejdou.  Velmi důležité je <b>opakovat</b> si slovíčka označena <b>červeně</b>.\
+        Je to vlastně obdoba sepisování slovíček na papír a jejich hádání s tím rozdílem, že se pořadí slovíček dynamicky mění podle toho jak vám učení jde.</p>',
+        dictionary_title : "Slovnik",
+        dictionary_text : "Aplikace toho však umí mnohem více, po nainstalování lekce (ktérá má obvykle více než 250! slovíček) je rozdělena na <b>trenovací list</b> a <b>čekající list</b>, to proto aby jste se nepustili do opakování všech sloviček lekce najednou, ale opakovali si je pěkně pozvolna. Podle toho jak s učením postupujete vám aplikace automaticky přidáva další slovíčka. V sekci slovník toto chování však můžete změnit, samozdřejmostí je také přesouvaní slovíčkek mezi trenovacím a čekajícím listem a naopak, nebo je uplně mazat. Instalovat a odinstalovat lekce. Nejvíce však oceníte možnost přidávat <b>slovíčka svá vlastní.</b>",
+        games_title : "Učení hrou",
+        games_text : "Už Jan Amos Komenský říkaval škola hrou, tak co si nespřijemnit učení nějakou tou hrou\
+        Všechny tři druhy her, které slovniček Voc4u obsahuje jsou omezeny časově. V první <b>přiřazujete</b> slova k obrázkům, v druhé slovíčka vybíráte a v poslední doplňujete chybějící písmenka. Po každé dohrané hře také můžete on-line porovnat <b>skóre</b> s ostatními hráči. Každá hra vám zvyšuje také celkovou <b>reputaci</b>, jež vás pak provází celou aplikací. K tomu všemu si můžete vybrat úroveň vašich znalostí a trénovat tak jen slovíčka odpovídající vaším vědomostem.",
+        speaker_listener_title : "Předříkávač a posluchač",
+        speaker_listener_text : "V části Posluchač se pak slovíčka přehrávají a vy se je snažíte přeložit, to se hodí hlavně v situacích, kdy nemůžete reagovat na dění na obrazovce, třeba při řízení. Aplikace to ale umí také naopak, kdy do telefonu slovíčko říkáte a on se snaží rozeznat, zda jej vyslovujete správně. </p>",
+        chat_title : "Chatovaní",
+        chat_text : "Mezi nadstandardní funkce patří možnost chatovat s ostatními uživateli, což také pomáhá zlepšovat daný jazyk. Jednoduše si zadáte jakýsi <b>inzerát</b>, na který se pak mohou ostatní uživatelé přihlásit. Součástí inzerátu je i vaše reputace (odvíjí se podle skóre v hrách), což zajistí, že budete komunikovat jen <b>s uživateli na podobné úrovni</b>, jako jste vy sami a nebudete si tak rozdílnou úrovní věci komplikovat",
+        text_to_speech_title: "Speech pronunciation",
+        text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
+        text5 : "S aplikací Voc4u může být i náročná výuka cizího jazyka zábavou!"
+    });
+
+    $translateProvider.translations('russia', {
+        'HELLO': 'Hello',
+        'text1' : 'Расширяй свой словарный запас вместе с Voc4u, с помощью этих простых методик и игр на запоминание, например, пока ты едешь на учебу или ждешь пиво в баре.',
+        'text2' :"<h2 id='lang_shortcat'>Voc4u в кратце</h2>\
+        более чем 10 тысяч слов <br/>\
+        более 6 тысяч картинок  <br/>\
+    32 языка <br/>\
+    3 вида обучающих игр <br/>\
+    37 уровней сложности <br/>\
+    После скачивания ты можешь пользоваться приложением в онлайн <br/>\
+    Можно сравнивать свой чет с другими пользователями <br/>\
+    Можно слушать слова с помощью Android преобразователя текста в речь <br/>\
+    Можно практиковаться в произношении с Android преобразователем речи в текст <br/>\
+    Работает и без регистрации <br/>\
+        <br/><br/>\
+    + Можно общаться с пользователями, которые изучают тот же язык, что и ты. И расширять свой словарный запас вместе. </p>",
+        is_not_translator: "Voc4u - не словарь, и Voc4u - не переводчик ;-)",
+        thank_for_download: "Спасибо за скачивание и я надеюсь, у тебя все получается, чтобы ты ни делал, тебя окражают только хорошие люди, твои желания исполняются, жизнь твоя полна любви и, что особенно важно, ты здоров.",
+        want_to_learn_new_language:"Хочешь изучать новый язык…",
+        text3: "… или ты хочешь улучшить уже изучаемый язык? Почему бы не попробовать Android приложение Voc4u Vocabulary Trainer, в котором ты выучишь в интересной форме до 33 языков. Каждый язык содержит 40 уроков, в каждом из которых более чем 250 слов и 100 картинок.",
+        text4: "В начале, ты должен выбрать изучаемый и родной языки. Со всеми существующими языками ты можешь создавать любые комбинации. У нас есть французкий, немецкий, испанский, португальский, другие менее распространенные языки такие как индонезийский, китайский или, например, вьетнамский и многие другие.  <span class=”not_mistake_please”> Будь уверен в правильности выбора изучаемого и родного языка иначе Android перобразователь текста в речь будет говорить на твоем родном языке и большинство игр будут работать не правильно.</span>",
+        train_title: "Trenink",
+        train_text: 'Самая важная часть Voc4u спрятана под кнопкой УЧИ. Здесь ты будешьl <b>запоминать</b> перевод <b> слова </b> в синей рамке (наверху). Если ты не можешь перевести слово или ты не уверен, нажми кнопку “не знаю”. Если ты будешь использовать приложение правильно (правильно использовать кнопки  “знаю” и “не знаю”) приложение будет повторять проблемные слова чаще. Очень важно еще всегда <b>повторять</b> слова отмеченные красным <b>цветом</b>. На самом деле это похоже на то как, ты, записав незнакомые слова на бумагу, закрываешь рукой их перевод. Но разница приложения по сравнению с бумагой в том, что список слов в приложении изменяется автоматически в результате твоего прогресса.',
+        dictionary_title : "Словарь",
+        dictionary_text : "Приложение может сделать для тебя и еще многое другое… после установки новых уроков (каждые из которых содерржат более чем 250 слов) разделены на <b>список слов для изучения</b> и <b>список ожидания</b> для того чтобы не повторять все слова сразу, а изучать их поэтапно. В процессе твоего прогресса приложение будет автоматически добавлять слова из твоего списка ожидания в список для изучения. В секции Словарь ты может изменить настройки, редактировать слова (устанавливать, деинсталировать) или перемещать слова из одного списка в другой. Ты можешь удалять слова, или, что тебе понравится еще больше,  <b>добавлять </b> свои <b>пользовательские слова</b>.",
+        games_title : "Учись играя",
+        games_text : "Учитель народов Ян Амус Каменский наказал: учись, играя. Поэтому, почему бы не сделать учебу легче с помощью игр. Vocabulary Voc4u сожержит 3 вида игр, в которых ты в условиях ограниченого времени должен выбрать првильную <b>картинку</b>или правильный <b>перевод</b> слова. Немного сложнее, но полезнее для запоминания игра на <b>правиписание</b>.\
+        Может быть ты не согласен с переводом, подожди 7 секунд и сообщи об этом! Благодарю за твою помощь, потому что она поддрерживает базу данных Voc4u в наилучшей форме.\
+            ...В зависимости от скорости, с которой отвечаешь, ты будешь получать очки. Которые, ты можешь потом сравнить с очками других пользователей со всего мира. И твои очки помогут тебе перейти на следующие более сложные уровни.\
+        Ты также можешь посмотреть на свои ошибки и добавить эти слова в свой список для изучения.",
+        speaker_listener_title : "Говорящий и слушатель",
+        speaker_listener_text : "Функция Говорение несколько раз проговорит для тебя изучаемые слова, это особенно важно, в те моменты, когда ты не можешь смотреть на экран, например во время вождения автомобиля. Voc4u Trainer также может работать и наоборот. Ты будешь говорить, а Android преобразователь речи в текст послушает и определит правильность твоего произношения.",
+        chat_title : "Общение",
+        chat_text : "Также в Voc4u Network ты можешь общаться с другими пользователями и изучать языкс ними вместе. Ты создашь свое объявление, и пользователи смогу написать тебе или ты сам сможешь написать кому-то. Это объявление содержит и информацию о репутации в приложении (основанной на результатах игр), что позволяет определить уровень языка пользователя.",
+        text_to_speech_title: "Speech pronunciation",
+        text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
+        text5 : "С приложением Voc4u такое сложное дело как изучение инстранного языка может стать веселым! :)"
+    });
+
     $translateProvider.useStaticFilesLoader({
         prefix: 'ajax/locale-',
         suffix: '.json'
