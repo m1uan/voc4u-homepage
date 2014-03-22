@@ -294,7 +294,7 @@ app.config(function ( $translateProvider, $locationProvider) {
         suffix: '.json'
     });
 
-    $translateProvider.preferredLanguage('en_US');
+    $translateProvider.preferredLanguage('en');
 
     $locationProvider.html5Mode(false);
     $locationProvider.hashPrefix('');

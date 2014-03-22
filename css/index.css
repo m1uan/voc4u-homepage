@@ -80,10 +80,11 @@ div.google_play:hover {
 }
 
 .langs {
-    margin-top:0px;
-    margin-bottom: 0px;
-    margin-left:auto;
-    margin-right:auto;
+    width:730px;
+    margin-left:-40px;
+    margin-right:-40px;
+    margin-top:2px;
+    margin-bottom:2px;
 }
 
 .langs a, .langs a:visited, .langs a:hover{
@@ -98,8 +99,10 @@ div.google_play:hover {
     float:left;
 }
 
-.langs:last-child {
+.langs1 div:last-child {
+    background-color:green;
     clear:both;
+    float:left;
 }
 
 .langs a:hover {
@@ -119,8 +122,8 @@ div.google_play:hover {
 }
 
 .bottom-panel {
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding-top:10px;
+    padding-bottom: 24px;
     margin-bottom: 100px;
     background-color: #313031;
 }
