@@ -179,3 +179,20 @@ p.column_right {
     width:80px;
     margin:20px;
 }
+
+
+#online_demo_open {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding:20px;
+
+    width:360px;
+    background-color:Black;
+    border-style:solid;
+    margin:0px;
+    margin-top:200px;
+    margin-bottom:200px;
+    margin-left:100px;
+    color:Black;
+    font-weight:bold;
+}

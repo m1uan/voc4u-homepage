@@ -58,10 +58,10 @@
 
                <div class="platforms">
                    <a href="https://play.google.com/store/apps/details?id=com.voc4u" onclick="_gaq.push(['_trackEvent', 'google_play', 'com.voc4u'])"><img class="platform_img" src="img/platforms/android.png" /></a>
-                   <img class="platform_img" src="img/platforms/apple.png" />
-                   <img class="platform_img" src="img/platforms/blackberry.png" />
-                   <img class="platform_img" src="img/platforms/wp.png" />
-                   <img class="platform_img" src="img/platforms/firefoxos.png" />
+                   <img onclick="_gaq.push(['_trackEvent', 'apple_store', 'com.voc4u'])"><img class="platform_img" class="platform_img" src="img/platforms/apple.png" />
+                   <img onclick="_gaq.push(['_trackEvent', 'blackberry', 'com.voc4u'])"><img class="platform_img" class="platform_img" src="img/platforms/blackberry.png" />
+                   <img onclick="_gaq.push(['_trackEvent', 'windows_phone', 'com.voc4u'])"><img class="platform_img" class="platform_img" src="img/platforms/wp.png" />
+                   <img onclick="_gaq.push(['_trackEvent', 'firefox_os', 'com.voc4u'])"><img class="platform_img" class="platform_img" src="img/platforms/firefoxos.png" />
                </div>
 
               <div class="text2"  translate="text2">
@@ -80,17 +80,8 @@
           <div class="promo1">
 
 
-              <p class="not_dirctionary_not_translator" translate="is_not_translator">
 
 
-
-              </p>
-
-              <p class="thank_you_for_download" translate="thank_for_download">
-
-
-              </p>
-              <hr>
 
               <h2  id="lang_wish clear" translate="want_to_learn_new_language"> Want to learn new language… </h2>
               <div data-1000="opacity:0.1" data-1300="opacity:1">
@@ -159,8 +150,23 @@
 
               </p>
 
+
+
+              <div class="bottom-panel">
+
+                  <p class="thank_you_for_download" translate="thank_for_download">
+                  </p>
+
+                  <p class="not_dirctionary_not_translator" translate="is_not_translator">
+
+                  </p>
+              </div>
+
           </div>
 
+              <div id="online_demo_open">
+                  <iframe src="online_demo/app.html#page1" id="online_demo_iframe" height="470px" width="350px"></iframe>
+              </div>
 
 
 
