@@ -119,6 +119,16 @@ div.google_play:hover {
     padding-right: 5000px;
     padding-top:5px;
     padding-bottom: 5px;
+
+}
+
+.lang_shortcut {
+    margin-top:200px;
+}
+
+
+.text2 {
+    margin-top:200px;
 }
 
 .bottom-panel {
@@ -162,4 +172,10 @@ p.column, p.column_right{
 p.column_right {
     float: left;
 }
-
+.platforms {
+    margin-top:200px;
+}
+.platforms img {
+    width:80px;
+    margin:20px;
+}
