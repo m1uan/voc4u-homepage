@@ -305,13 +305,13 @@ app.controller('main', function($scope, $location, $translate){
 
 
 $scope.langs= [
-    {display:'Český', flag:'cz.svg', link:'#czech'}
-    ,{display:'Deutsch', flag:'de.svg', link:'#de'}
-    ,{display:'English', flag:'en.svg', link:'#en'}
-    ,{display:'Français', flag:'fr.svg', link:'#french'}
-    ,{display:'Polski', flag:'pl.png', link:'#poland'}
-    ,{display:'Português', flag:'br.svg', link:'#portugal'}
-    ,{display:'по-ру́сски', flag:'ru.svg', link:'#russia'}
+    {display:'Český', flag:'cs', link:'#czech'}
+    ,{display:'Deutsch', flag:'de', link:'#de'}
+    ,{display:'English', flag:'en', link:'#en'}
+    ,{display:'Français', flag:'fr', link:'#french'}
+    ,{display:'Polski', flag:'pl', link:'#poland'}
+    ,{display:'Português', flag:'pt', link:'#portugal'}
+    ,{display:'по-ру́сски', flag:'ru', link:'#russia'}
 ]
     $scope.changeLang = function(lang){
         $translate.use(lang.slice(1));
