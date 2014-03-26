@@ -1,7 +1,7 @@
 <html ng-app="app">
-        <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+
         <head>
-            <meta name="description" content="Voc4u Android Vocabulary trainer">
+            <meta name="description" content="Voc4u Best Android Vocabulary trainer">
             <meta name="keywords" content="English,Czech,Portugal">
             <meta name="author" content="Milan Medlik">
             <meta charset="UTF-8">
@@ -21,13 +21,23 @@
         })();
 
     </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
     <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
 
     <script type="text/javascript" src="js/angular-translate.min.js"></script>
     <script type="text/javascript" src="js/angular-translate-loader-static-files.min.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+
+
 
 
           <div class="centre">
@@ -35,7 +45,7 @@
               <h1 >Voc4u</h1>
 
           </div>
-          <div class="bottom-panel" >
+          <div class="lang-panel full-block" >
 
 
           <div class="langs" >
@@ -64,20 +74,20 @@
                    <img onclick="_gaq.push(['_trackEvent', 'firefox_os', 'com.voc4u'])" class="platform_img" class="platform_img" src="img/platforms/firefoxos.png" />
                </div>
 
-              <div class="text2"  translate="text2">
+              <div class="lang_shortcut full-block" data-700="background-color:rgb(45,45,45);" data-1200="background-color:rgb(80,80,145);">
+
+                  <div class="text2"  translate="text2">
+                  </div>
+                  <iframe src="//player.vimeo.com/video/88135187" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               </div>
 
 
-              <!--<iframe width="640" height="360" src="//www.youtube.com/embed/d1_ZeOMET24?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>-->
-
-              <div class="lang_shortcut" data-500="background-color:rgb(45,45,45);" data-1000="background-color:rgb(80,80,145);">
-              <iframe src="//player.vimeo.com/video/88135187" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              </div>
 
 
 
 
-          <div class="promo1">
+
+          <div class="promo">
 
 
 
@@ -152,7 +162,23 @@
 
 
 
-              <div class="bottom-panel">
+              <div class="bottom-panel-bottom full-block">
+                  <form id="message" method="post" action="mail.php">
+                      Your email:<br><input type="text" name="from" value="@"><br>
+                      Message:<br><textarea rows="10" cols="60" name="message"></textarea>
+
+                  </form>
+                  <button type="button" class="btn btn-primary" onclick='javascript:document.getElementById("message").submit();'>send to milan.medlik@gmail.com</button>
+
+              </div>
+
+          </div>
+
+             <div id="online_demo_open">
+                  <iframe src="online_demo/app.html" id="online_demo_iframe" height="640px" width="420px"></iframe>
+              </div>
+
+              <div class="bottom-panel-bottom full-block">
 
                   <p class="thank_you_for_download" translate="thank_for_download">
                   </p>
@@ -162,22 +188,14 @@
                   </p>
               </div>
 
-          </div>
-
-              <div id="online_demo_open">
-                  <iframe src="online_demo/app.html#page1" id="online_demo_iframe" height="570px" width="350px"></iframe>
-              </div>
-
-
-
 
 
 
               <div class="email">
                    <a href="mailto:milan.medlik@gmail.com">milan.medlik@gmail.com</a> (c) 201X Milan Medlik
               </div>
-              </div>
-              <a href="https://mixpanel.com/f/partner"><img src="https://mixpanel.com/site_media/images/partner/badge_blue.png" alt="Mobile and Web Analytics" /></a>
+
+               <a href="https://mixpanel.com/f/partner"><img src="https://mixpanel.com/site_media/images/partner/badge_blue.png" alt="Mobile and Web Analytics" /></a>
 
               <script type="text/javascript"><!--
               google_ad_client = "ca-pub-3180838023948797";
@@ -185,7 +203,7 @@
               google_ad_slot = "2698948192";
               google_ad_width = 728;
               google_ad_height = 90;
-              //-->
+-->
               </script>
               <script type="text/javascript"
                       src="http://pagead2.googlesyndication.com/pagead/show_ads.js">

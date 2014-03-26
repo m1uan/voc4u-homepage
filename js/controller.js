@@ -11,13 +11,13 @@ app.config(function ( $translateProvider, $locationProvider) {
             32 Language <br/>\
         3 type of learning game <br/>\
     37 levels by difficulty <br/>\
-    All you can use online.* <br/>\
+    All you can use online. <br/>\
     Check you score with other players <br/>\
     Listen words by Android Text To Speech<br/>\
     Train spech by Android speech to text <br/>\
-    works without registration <br/>\
-        <br/><br/>\
-    + Messaging with users they are learning the same language like you and you can improve vocabulary together. </p>",
+    Works without registration <br/>\
+    Chat between users\
+            </p>",
         is_not_translator: "Voc4u is not dictionary, Voc4u is not translator;-)",
         thank_for_download: "Thank you for download and I hope you do well in whatever you do, you are surrounded by only nice people, your wishes will come true, you have a life full of love and mainly you are healthy",
         want_to_learn_new_language:"Want to learn new language…",
@@ -100,9 +100,8 @@ app.config(function ( $translateProvider, $locationProvider) {
     Porovnani vaseho vysledku s ostatnimi <br/>\
     Poslech slovicek pomoci Android text to speech <br/>\
     Trénování výslovnosti pomocí Android text to speech <br/>\
+    Chat mezi uzivateli <br/>\
     Funguje bez registrace <br/>\
-    </p><p>\
-    + Posilej si zpravy mezi uživateli v jazyku ktery se učís a prohlubujte si slovni zasobu navzajem.\
     </p>",
         is_not_translator: "Voc4u neni slovnik, Voc4u neni prekladac;-)",
         thank_for_download: "Dekuju za download a preju krome hodne naucenych slovicek, take at se Ti dari vsecko na co sahnes, mas kolem sebe jen skvele lidi, splni se Ti vsecko co si prejes, mas plno lasky a hlavne mas plno zdravi!",

@@ -59,9 +59,9 @@ div.google_play:hover {
 }
 
 .promo {
+
     font-family: sans-serif;
-    margin-top:10px;
-    display: none;
+    margin-top:200px;
 }
 
 .flag{
@@ -109,14 +109,17 @@ div.google_play:hover {
     color:#31b6e7;
 }
 
-
-.lang_shortcut, .bottom-panel {
-    /*background-color: deepskyblue;*/
-    color:white;
+.full-block {
     margin-left:-5000px;
     margin-right:-5000px;
     padding-left: 5000px;
     padding-right: 5000px;
+}
+
+.lang_shortcut, .lang-panel {
+    /*background-color: deepskyblue;*/
+    color:white;
+
     padding-top:5px;
     padding-bottom: 5px;
 
@@ -128,15 +131,21 @@ div.google_play:hover {
 
 
 .text2 {
-    margin-top:200px;
+    /*margin-top:200px;*/
 }
 
-.bottom-panel {
+.lang-panel, .bottom-panel-bottom {
     padding-top:10px;
     padding-bottom: 24px;
     margin-bottom: 100px;
     background-color: #313031;
+    color:White;
 }
+
+.bottom-panel-bottom form input, .bottom-panel-bottom form textarea{
+    color:DarkBlue;
+}
+
 
 .head {
     background: #284049; /* Old browsers */
@@ -187,13 +196,13 @@ p.column_right {
     border-radius: 15px;
     padding:20px;
 
-    width:360px;
+    width:460px;
     background-color:Black;
     border-style:solid;
     margin:0px;
     margin-top:200px;
     margin-bottom:200px;
-    margin-left:100px;
+    margin-left:50px;
     color:Black;
     font-weight:bold;
 }
