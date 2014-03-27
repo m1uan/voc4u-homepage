@@ -42,6 +42,9 @@ app.config(function ( $translateProvider, $locationProvider) {
         text_to_speech_title: "Speech pronunciation",
         text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
         text5 : "With application Voc4u can be the difficult language learing fun! :)"
+        ,message_sent : "Message send, thank you ;-)"
+        ,your_email: "Your Email:"
+        ,your_message : "Your Message: "
 
 });
     $translateProvider.translations('de', {
@@ -299,7 +302,7 @@ app.config(function ( $translateProvider, $locationProvider) {
     $locationProvider.hashPrefix('');
 });
 
-app.controller('main', function($scope, $location, $translate){
+app.controller('main', function($scope, $location, $translate, $http){
 
 
 
@@ -354,5 +357,26 @@ $scope.langs= [
         console.log('animateObject', name, max, positive, random, setting, obj);
 
         //alert(random + ' - ' + positive);
+    }
+
+
+    $scope.messageEmail = '@';
+
+    $scope.onMessageSend = function(){
+
+        var text = $('#message_text').val();
+        var xsrf = $.param({from: $scope.messageEmail, message: text});
+        $http.post('mail.php', xsrf).success(function(data, status, headers, config) {
+                var dialog = $('#dialog_sended');
+                $('#dialog_email_info').text($scope.messageEmail);
+                $('#dialog_text_info').text(text);
+                $scope.messageEmail = '@';
+                $('#message_text').val('');
+                dialog.modal('show');
+            }).error(function(data, status, headers, config) {
+                console.log('errr: ' , data, status, headers, config);
+                alert('Something doesn\'t work properly :-( please try again ;-)');
+            });
+        alert('ahoj' + email + ':' + text + ' >> [' + xsrf + ']');
     }
 });

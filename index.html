@@ -27,8 +27,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
 
     <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
@@ -36,7 +35,8 @@
     <script type="text/javascript" src="js/angular-translate.min.js"></script>
     <script type="text/javascript" src="js/angular-translate-loader-static-files.min.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
-
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 
 
@@ -172,11 +172,13 @@
 
               <div class="bottom-panel-bottom full-block">
                   <form id="message" method="post" action="mail.php">
-                      Your email:<br><input type="text" name="from" value="@"><br>
-                      Message:<br><textarea rows="10" cols="60" name="message"></textarea>
+                      <p translate="your_email"></p>
+                      <input id="message_email" type="text" name="from" value="@" ng-model="messageEmail"><br>
+                      <p translate="your_message"></p>
+                      <textarea id="message_text" rows="10" cols="60" name="message" ng-model="messageText"></textarea>
 
                   </form>
-                  <button type="button" class="btn btn-primary" onclick='javascript:document.getElementById("message").submit();'>send to milan.medlik@gmail.com</button>
+                  <button type="button" class="btn btn-primary" ng-click='onMessageSend()'>send to milan.medlik@gmail.com</button>
 
               </div>
 
@@ -217,6 +219,48 @@
                       src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
               </script>
           </div>
+
+    <div id="dialog_sended" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" translate="message_sent"></h4>
+                </div>
+                <div class="modal-body">
+                    <p translate="your_email" ></p>
+                    <p id="dialog_email_info"></p>
+                    <p translate="your_message" ></p>
+                    <p id="dialog_text_info"></p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="dialog_let_me_know" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" translate="message_sent"></h4>
+                </div>
+                <div class="modal-body">
+                    <p translate="your_email" ></p>
+                    <input type="text" name="from" value="@" ng-model="messageEmail">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click='onMessageSend()'>send to milan.medlik@gmail.com</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
 
 
               <script type="text/javascript" src="js/skrollr.min.js"></script>
