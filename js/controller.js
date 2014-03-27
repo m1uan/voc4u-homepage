@@ -366,7 +366,7 @@ $scope.langs= [
 
         var text = $('#message_text').val();
         var xsrf = $.param({from: $scope.messageEmail, message: text});
-        $http.post('mail.php', xsrf).success(function(data, status, headers, config) {
+        $http({method:'POST', url:'mail.php', data: xsrf, headers: {'Content-Type': 'application/x-www-form-urlencoded'}}).success(function(data, status, headers, config) {
                 var dialog = $('#dialog_sended');
                 $('#dialog_email_info').text($scope.messageEmail);
                 $('#dialog_text_info').text(text);
@@ -377,6 +377,6 @@ $scope.langs= [
                 console.log('errr: ' , data, status, headers, config);
                 alert('Something doesn\'t work properly :-( please try again ;-)');
             });
-        alert('ahoj' + email + ':' + text + ' >> [' + xsrf + ']');
+        //alert('ahoj' + email + ':' + text + ' >> [' + xsrf + ']');
     }
 });

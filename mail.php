@@ -8,4 +8,4 @@ $message = wordwrap($message, 70);
 // send mail
 mail("milan.medlik@gmail.com",$subject,$message,"From: $from\n");
 
-echo "Thank you, your message was send to milan.medlik@gmail.com, have a nice day :-)";
+var_dump($_POST);
