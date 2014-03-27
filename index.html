@@ -67,11 +67,11 @@
 
 
                <div class="platforms">
-                   <a href="https://play.google.com/store/apps/details?id=com.voc4u" onclick="_gaq.push(['_trackEvent', 'google_play', 'com.voc4u'])"><img class="platform_img" src="img/platforms/android.png" /></a>
-                   <img onclick="_gaq.push(['_trackEvent', 'apple_store', 'com.voc4u'])" class="platform_img" class="platform_img" src="img/platforms/apple.png" />
-                   <img onclick="_gaq.push(['_trackEvent', 'blackberry', 'com.voc4u'])" class="platform_img" class="platform_img" src="img/platforms/blackberry.png" />
-                   <img onclick="_gaq.push(['_trackEvent', 'windows_phone', 'com.voc4u'])" class="platform_img" class="platform_img" src="img/platforms/wp.png" />
-                   <img onclick="_gaq.push(['_trackEvent', 'firefox_os', 'com.voc4u'])" class="platform_img" class="platform_img" src="img/platforms/firefoxos.png" />
+                   <a id="platform_android" href="https://play.google.com/store/apps/details?id=com.voc4u" onclick="_gaq.push(['_trackEvent', 'google_play', 'com.voc4u'])"><img class="platform_img" src="img/platforms/android.png" /></a>
+                   <a id="platform_osx" onclick="_gaq.push(['_trackEvent', 'apple_store', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/apple.png" /></a>
+                   <a id="platform_blackberry" onclick="_gaq.push(['_trackEvent', 'blackberry', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/blackberry.png" /></a>
+                   <a id="platform_windows_phone" onclick="_gaq.push(['_trackEvent', 'windows_phone', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/wp.png" /></a>
+                   <a id="platform_firefox_os" onclick="_gaq.push(['_trackEvent', 'firefox_os', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/firefoxos.png" /></a>
                </div>
 
               <div class="lang_shortcut full-block" data-700="background-color:rgb(45,45,45);" data-1200="background-color:rgb(80,80,145);">
@@ -93,45 +93,53 @@
 
 
 
-              <h2  id="lang_wish clear" translate="want_to_learn_new_language"> Want to learn new language… </h2>
+
               <div data-1000="opacity:0.1" data-1300="opacity:1">
                   <img class="phone_right" src="images/samsung_0.png" data-1000="padding-left:100px;margin-right:-100px;" data-1300="padding-left:0px;margin-right:0px;"/>
-                  <p class="column" data-1000="padding-right:100px;margin-left:-100px;" data-1300="padding-right:0px;margin-left:0px;" translate="text3">
+                  <div data-1000="padding-right:100px;margin-left:-100px;" data-1300="padding-right:0px;margin-left:0px;" >
+                  <h2  id="lang_wish clear" translate="want_to_learn_new_language"> Want to learn new language… </h2>
+                  <p class="column" translate="text3">
 
-                  </p><p class="column" data-1000="padding-right:100px;margin-left:-100px;" data-1300="padding-right:0px;margin-left:0px;" translate="text4">
+                  </p><p class="column"  translate="text4">
 
-
+                  </div>
 
               </p>
               </div>
 
-              <div class="clear">
-                  <h2  id="lang_train clear" translate="train_title"></h2>
-                  <div data-1500="opacity:0.1" data-1800="opacity:1" >
-                      <img class="phone_left" src="images/samsung_0.png" data-1500="padding-right:100px;margin-left:-100px;" data-1800="padding-right:0px;margin-left:0px;"/>
-                      <p translate="train_text" class="column_right" data-1500="padding-left:100px;margin-right:-200px;" data-1800="padding-left:50px;margin-right:-50px;">
+              <div class="clear" data-1500="opacity:0.1" data-1800="opacity:1" >
+
+                  <img class="phone_left" src="images/samsung_0.png" data-1500="padding-right:100px;margin-left:-100px;" data-1800="padding-right:0px;margin-left:0px;"/>
+                  <div  class="column_right" data-1500="padding-left:100px;margin-right:-200px;" data-1800="padding-left:50px;margin-right:-50px;">
+                      <h2  id="lang_train" translate="train_title" ></h2>
+                      <p translate="train_text">
 
                       </p>
                   </div>
-              </div><div class="clear">
-              <h2  id="lang_dictionary clear" translate="dictionary_title"> </h2>
+              </div>
+
+              <div class="clear">
+
               <div data-1900="opacity:0.1" data-2200="opacity:1" >
                   <img class="phone_right" src="images/samsung_0.png" data-1900="padding-left:100px;margin-right:-100px;" data-2200="padding-left:0px;margin-right:0px;"/>
-                  <p translate="dictionary_text" class="column" data-1900="padding-right:100px;margin-left:-100px;" data-2200="padding-right:0px;margin-left:0px;">
+                  <div   data-1900="padding-right:100px;margin-left:-100px;" data-2200="padding-right:0px;margin-left:0px;">
+                      <h2  id="lang_dictionary clear" translate="dictionary_title" ></h2>
+                      <p class="column" translate="dictionary_text" ></p>
 
-
-                  </p>
+                  </div>
               </div>
-          </div><div class="clear">
-              <h2  id="lang_games clear" translate="games_title"></h2>
+
+          </div>
+              <div class="clear">
+
               <div data-2300="opacity:0.1" data-2600="opacity:1" >
                   <img class="phone_left" src="images/samsung_0.png" data-2300="padding-right:100px;margin-left:-100px;" data-2600="padding-right:0px;margin-left:0px;"/>
-                  <p translate="games_text" class="column_right" data-2300="padding-left:100px;margin-right:-200px;" data-2600="padding-left:50px;margin-right:-50px;">
+                  <div  class="column_right" data-2300="padding-left:100px;margin-right:-200px;" data-2600="padding-left:50px;margin-right:-50px;">
+                      <h2  id="lang_games " translate="games_title"></h2>
+                        <p translate="games_text"></p>
 
 
-
-
-                  </p>
+                  </div>
               </div>
           </div><div class="clear">
               <h2  id="lang_games clear" translate="speaker_listener_title"></h2>

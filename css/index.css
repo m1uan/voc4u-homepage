@@ -174,11 +174,11 @@ div.google_play:hover {
     float:right;
 }
 
-p.column, p.column_right{
+p.column, div.column_right{
     width:300px;
 }
 
-p.column_right {
+div.column_right {
     float: left;
 }
 .platforms {
