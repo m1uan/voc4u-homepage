@@ -45,6 +45,7 @@ app.config(function ( $translateProvider, $locationProvider) {
         ,message_sent : "Message send, thank you ;-)"
         ,your_email: "Your Email:"
         ,your_message : "Your Message: "
+        ,let_me_know: 'Unfortunately the Voc4u for platform what you looking for is now middle of hard developing :-) But we will be pleased to let you know when is ready for you :-)'
 
 });
     $translateProvider.translations('de', {
@@ -378,5 +379,12 @@ $scope.langs= [
                 alert('Something doesn\'t work properly :-( please try again ;-)');
             });
         //alert('ahoj' + email + ':' + text + ' >> [' + xsrf + ']');
+    }
+
+    $scope.onLetMeKnow = function(platform){
+        var dialog = $('#dialog_let_me_know');
+        $('#let-me-know-title').text(platform);
+        $('#message_text').val(platform);
+        dialog.modal('show');
     }
 });

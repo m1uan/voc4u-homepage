@@ -68,10 +68,10 @@
 
                <div class="platforms" data-ng-init="platformsAnimate()">
                    <a id="platform_android" href="https://play.google.com/store/apps/details?id=com.voc4u" onclick="_gaq.push(['_trackEvent', 'google_play', 'com.voc4u'])"><img class="platform_img" src="img/platforms/android.png" /></a>
-                   <a id="platform_osx" onclick="_gaq.push(['_trackEvent', 'apple_store', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/apple.png" /></a>
-                   <a id="platform_blackberry" onclick="_gaq.push(['_trackEvent', 'blackberry', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/blackberry.png" /></a>
-                   <a id="platform_windows_phone" onclick="_gaq.push(['_trackEvent', 'windows_phone', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/wp.png" /></a>
-                   <a id="platform_firefox_os" onclick="_gaq.push(['_trackEvent', 'firefox_os', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/firefoxos.png" /></a>
+                   <a id="platform_osx" ng-click="onLetMeKnow('Apple OSX')" onclick="_gaq.push(['_trackEvent', 'apple_store', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/apple.png" /></a>
+                   <a id="platform_blackberry" ng-click="onLetMeKnow('Blackbery OS')" onclick="_gaq.push(['_trackEvent', 'blackberry', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/blackberry.png" /></a>
+                   <a id="platform_windows_phone" ng-click="onLetMeKnow('Windows Phone')" onclick="_gaq.push(['_trackEvent', 'windows_phone', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/wp.png" /></a>
+                   <a id="platform_firefox_os" ng-click="onLetMeKnow('Firefox OS')" onclick="_gaq.push(['_trackEvent', 'firefox_os', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/firefoxos.png" /></a>
                </div>
 
               <div class="lang_shortcut full-block" data-700="background-color:rgb(45,45,45);" data-1200="background-color:rgb(80,80,145);">
@@ -247,14 +247,15 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" translate="message_sent"></h4>
+                    <h4 class="modal-title" id="let-me-know-title" ></h4>
                 </div>
                 <div class="modal-body">
+                    <p translate="let_me_know"></p>
                     <p translate="your_email" ></p>
                     <input type="text" name="from" value="@" ng-model="messageEmail">
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click='onMessageSend()'>send to milan.medlik@gmail.com</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click='onMessageSend()'>Request to milan.medlik@gmail.com</button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div><!-- /.modal-content -->
