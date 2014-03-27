@@ -190,6 +190,14 @@ div.column_right {
 
 }
 
+.platforms a {
+    position:relative;
+}
+
+.platforms a:hover {
+    cursor:pointer;
+}
+
 
 #online_demo_open {
     -moz-border-radius: 15px;

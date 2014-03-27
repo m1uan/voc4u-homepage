@@ -321,4 +321,38 @@ $scope.langs= [
         $translate.use($location.path().slice(1));
     });
 
+
+    $scope.platformsAnimate = function(){
+        var max = 10;
+
+        animateObject('platform_android', max, getRandom(max) > max/2);
+        animateObject('platform_osx', max, getRandom(max) > max/2);
+        animateObject('platform_blackberry', max, getRandom(max) > max/2);
+        animateObject('platform_windows_phone', max, getRandom(max) > max/2);
+        animateObject('platform_firefox_os', max, getRandom(max) > max/2);
+
+
+    };
+
+    function getRandom(max){
+        return (Math.random() * 1000) % (max);
+    }
+
+    function animateObject(name, max, positive){
+        var random = Math.round(getRandom(max) + 10);
+
+        if(!positive){
+            random = random * -1;
+        }
+
+        var setting = {top : random+'px'};
+
+        var obj = $('#' + name);
+        obj.animate(setting, Math.round(getRandom(500) + 1000), function(){
+            animateObject(name, max, !positive);
+        });
+        console.log('animateObject', name, max, positive, random, setting, obj);
+
+        //alert(random + ' - ' + positive);
+    }
 });
