@@ -89,6 +89,11 @@ app.config(function ( $translateProvider, $locationProvider) {
         text_to_speech_title: "Speech pronunciation",
         text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
         text5 : "Mit der App Voc4u kann es Spaß machen eine schwierige Sprache zu lernen! :)"
+        ,message_sent : "Message send, thank you ;-)"
+        ,your_email: "Your Email:"
+        ,your_message : "Your Message: "
+        ,let_me_know: 'Unfortunately the Voc4u for platform what you looking for is now middle of hard developing :-) But we will be pleased to let you know when is ready for you :-)'
+
     });
 
     $translateProvider.translations('czech', {
@@ -127,6 +132,11 @@ app.config(function ( $translateProvider, $locationProvider) {
         text_to_speech_title: "Speech pronunciation",
         text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
         text5 : "S aplikací Voc4u může být i náročná výuka cizího jazyka zábavou!"
+        ,message_sent : "Message send, thank you ;-)"
+        ,your_email: "Your Email:"
+        ,your_message : "Your Message: "
+        ,let_me_know: 'Unfortunately the Voc4u for platform what you looking for is now middle of hard developing :-) But we will be pleased to let you know when is ready for you :-)'
+
     });
 
     $translateProvider.translations('russia', {
@@ -166,6 +176,11 @@ app.config(function ( $translateProvider, $locationProvider) {
         text_to_speech_title: "Speech pronunciation",
         text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
         text5 : "С приложением Voc4u такое сложное дело как изучение инстранного языка может стать веселым! :)"
+        ,message_sent : "Message send, thank you ;-)"
+        ,your_email: "Your Email:"
+        ,your_message : "Your Message: "
+        ,let_me_know: 'Unfortunately the Voc4u for platform what you looking for is now middle of hard developing :-) But we will be pleased to let you know when is ready for you :-)'
+
     });
 
     $translateProvider.translations('poland', {
@@ -205,6 +220,11 @@ app.config(function ( $translateProvider, $locationProvider) {
         text_to_speech_title: "Wymowa",
         text_to_speech_text: 'Możesz posłuchać jak brzmi poprawna wymowa nowych słów w Voc4uTraining oraz w Play. It is by Google Android Text To <b>Speech engine</b>. Aby uzyskać lepszą jakość dźwięku możesz wypróbować syntezator od innego producenta <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . Powyższe syntezatory zawierają duży wybór języków, zazwyczaj także różne głosy.',
         text5 : "Z aplikacją Voc4u nawet nauka trudnego języka może być dobra zabawą! :-)"
+        ,message_sent : "Message send, thank you ;-)"
+        ,your_email: "Your Email:"
+        ,your_message : "Your Message: "
+        ,let_me_know: 'Unfortunately the Voc4u for platform what you looking for is now middle of hard developing :-) But we will be pleased to let you know when is ready for you :-)'
+
 
     });
 
@@ -245,6 +265,11 @@ app.config(function ( $translateProvider, $locationProvider) {
         text_to_speech_title: "Speech pronunciation",
         text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
         text5 : "Com aplicaçaõ Voc4u pode ser instrução intensiva da língua estrangeira divertido! :-)"
+        ,message_sent : "Message send, thank you ;-)"
+        ,your_email: "Your Email:"
+        ,your_message : "Your Message: "
+        ,let_me_know: 'Unfortunately the Voc4u for platform what you looking for is now middle of hard developing :-) But we will be pleased to let you know when is ready for you :-)'
+
 
     });
 
@@ -289,6 +314,11 @@ app.config(function ( $translateProvider, $locationProvider) {
         text_to_speech_title: "Speech pronunciation",
         text_to_speech_text: 'For practise speech pronunciation in Voc4u Training and in Play  are the words speak in you learn language. It is by Google Android Text To <b>Speech engine</b>. For better quality of pronunciation try another third-party text to speech engine <a href="https://play.google.com/store/apps/details?id=com.ivona.tts.voicebeta.eng.gbr.amy">IVONA Voices</a> or <a href="https://play.google.com/store/apps/details?id=com.svox.classic">SVOX Engine</a> . You can install from your popular marketplace. They are contains several languages, mainly with different voices.',
         text5 : "With application Voc4u can be the difficult language learing fun! :)"
+        ,message_sent : "Message send, thank you ;-)"
+        ,your_email: "Your Email:"
+        ,your_message : "Your Message: "
+        ,let_me_know: 'Unfortunately the Voc4u for platform what you looking for is now middle of hard developing :-) But we will be pleased to let you know when is ready for you :-)'
+
 
     });
 
