@@ -50,7 +50,7 @@
 
           <div class="langs" >
             <div ng-repeat="lang in langs">
-                <a href="{{lang.link}}">
+                <a href="{{lang.link}}" onclick="_gaq.push(['_trackEvent', '{{lang.display}}', '{{lang.flag}}'])">
                     <img class="lang_flag" src="img/flags/flag_{{lang.flag}}.png" />
                     <span>{{lang.display}}</span>
                 </a>
