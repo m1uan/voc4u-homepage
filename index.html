@@ -39,8 +39,9 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 
-
+    <div class="ocean">
           <div class="centre">
+
           <div class="head">
               <h1 >Voc4u</h1>
 
@@ -58,21 +59,23 @@
               <div class="clear"></div>
 
           </div>
+
           </div>
-
-              <p class="text1">
+              <div class="platforms" data-ng-init="platformsAnimate()">
+                  <a id="platform_android" href="https://play.google.com/store/apps/details?id=com.voc4u" onclick="_gaq.push(['_trackEvent', 'google_play', 'com.voc4u'])"><img class="platform_img" src="img/platforms/android.png" /></a>
+                  <a id="platform_osx" ng-click="onLetMeKnow('Apple OSX')" onclick="_gaq.push(['_trackEvent', 'apple_store', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/apple.png" /></a>
+                  <a id="platform_blackberry" ng-click="onLetMeKnow('Blackbery OS')" onclick="_gaq.push(['_trackEvent', 'blackberry', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/blackberry.png" /></a>
+                  <a id="platform_windows_phone" ng-click="onLetMeKnow('Windows Phone')" onclick="_gaq.push(['_trackEvent', 'windows_phone', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/wp.png" /></a>
+                  <a id="platform_firefox_os" ng-click="onLetMeKnow('Firefox OS')" onclick="_gaq.push(['_trackEvent', 'firefox_os', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/firefoxos.png" /></a>
+              </div>
+              <h3 class="text1">
                   {{ 'text1' | translate }}
-              </p>
+              </h3>
 
 
 
-               <div class="platforms" data-ng-init="platformsAnimate()">
-                   <a id="platform_android" href="https://play.google.com/store/apps/details?id=com.voc4u" onclick="_gaq.push(['_trackEvent', 'google_play', 'com.voc4u'])"><img class="platform_img" src="img/platforms/android.png" /></a>
-                   <a id="platform_osx" ng-click="onLetMeKnow('Apple OSX')" onclick="_gaq.push(['_trackEvent', 'apple_store', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/apple.png" /></a>
-                   <a id="platform_blackberry" ng-click="onLetMeKnow('Blackbery OS')" onclick="_gaq.push(['_trackEvent', 'blackberry', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/blackberry.png" /></a>
-                   <a id="platform_windows_phone" ng-click="onLetMeKnow('Windows Phone')" onclick="_gaq.push(['_trackEvent', 'windows_phone', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/wp.png" /></a>
-                   <a id="platform_firefox_os" ng-click="onLetMeKnow('Firefox OS')" onclick="_gaq.push(['_trackEvent', 'firefox_os', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/firefoxos.png" /></a>
-               </div>
+
+
 
               <div class="lang_shortcut full-block" data-700="background-color:rgb(45,45,45);" data-1200="background-color:rgb(80,80,145);">
 
@@ -82,11 +85,11 @@
               </div>
 
 
+          </div>
+    </div><div class="centre">
 
 
-
-
-
+        <div class="globe full-block">
           <div class="promo">
 
 
@@ -95,7 +98,7 @@
 
 
               <div data-1000="opacity:0.1" data-1300="opacity:1">
-                  <img class="phone_right" src="images/samsung_0.png" data-1000="padding-left:100px;margin-right:-100px;" data-1300="padding-left:0px;margin-right:0px;"/>
+                  <img class="phone_right" src="img/screenshot/nexus1.png" data-1000="padding-left:100px;margin-right:-100px;" data-1300="padding-left:0px;margin-right:0px;"/>
                   <div data-1000="padding-right:100px;margin-left:-100px;" data-1300="padding-right:0px;margin-left:0px;" >
                   <h2  id="lang_wish clear" translate="want_to_learn_new_language"> Want to learn new language… </h2>
                   <p class="column" translate="text3">
@@ -109,7 +112,7 @@
 
               <div class="clear" data-1500="opacity:0.1" data-1800="opacity:1" >
 
-                  <img class="phone_left" src="images/samsung_0.png" data-1500="padding-right:100px;margin-left:-100px;" data-1800="padding-right:0px;margin-left:0px;"/>
+                  <img class="phone_left" src="img/screenshot/nexus2.png" data-1500="padding-right:100px;margin-left:-100px;" data-1800="padding-right:0px;margin-left:0px;"/>
                   <div  class="column_right" data-1500="padding-left:100px;margin-right:-200px;" data-1800="padding-left:50px;margin-right:-50px;">
                       <h2  id="lang_train" translate="train_title" ></h2>
                       <p translate="train_text">
@@ -121,7 +124,7 @@
               <div class="clear">
 
               <div data-1900="opacity:0.1" data-2200="opacity:1" >
-                  <img class="phone_right" src="images/samsung_0.png" data-1900="padding-left:100px;margin-right:-100px;" data-2200="padding-left:0px;margin-right:0px;"/>
+                  <img class="phone_right" src="img/screenshot/nexus4.png" data-1900="padding-left:100px;margin-right:-100px;" data-2200="padding-left:0px;margin-right:0px;"/>
                   <div   data-1900="padding-right:100px;margin-left:-100px;" data-2200="padding-right:0px;margin-left:0px;">
                       <h2  id="lang_dictionary clear" translate="dictionary_title" ></h2>
                       <p class="column" translate="dictionary_text" ></p>
@@ -133,7 +136,7 @@
               <div class="clear">
 
               <div data-2300="opacity:0.1" data-2600="opacity:1" >
-                  <img class="phone_left" src="images/samsung_0.png" data-2300="padding-right:100px;margin-left:-100px;" data-2600="padding-right:0px;margin-left:0px;"/>
+                  <img class="phone_left" src="img/screenshot/nexus3.png" data-2300="padding-right:100px;margin-left:-100px;" data-2600="padding-right:0px;margin-left:0px;"/>
                   <div  class="column_right" data-2300="padding-left:100px;margin-right:-200px;" data-2600="padding-left:50px;margin-right:-50px;">
                       <h2  id="lang_games " translate="games_title"></h2>
                         <p translate="games_text"></p>
@@ -180,6 +183,7 @@
                   </form>
                   <button type="button" class="btn btn-primary" ng-click='onMessageSend()'>send to milan.medlik@gmail.com</button>
 
+              </div>
               </div>
 
           </div>

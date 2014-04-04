@@ -382,7 +382,7 @@ $scope.langs= [
         var setting = {top : random+'px'};
 
         var obj = $('#' + name);
-        obj.animate(setting, Math.round(getRandom(500) + 1000), function(){
+        obj.animate(setting, Math.round(getRandom(1000) + 1500), function(){
             animateObject(name, max, !positive);
         });
         console.log('animateObject', name, max, positive, random, setting, obj);
