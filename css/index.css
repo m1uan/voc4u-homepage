@@ -21,6 +21,28 @@
     background-size: cover;
 }
 
+.lake {
+    background: url('../img/20130107_172702.jpg') fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+.road {
+    background: url('../img/20110103_130151.jpg') fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    padding-top:200px;
+    padding-bottom:2000px;
+}
+
 div
 {
 
@@ -39,7 +61,7 @@ h1 {
     /*font-family:myFirstFont;*/
     font-family: sans-serif;
     font-weight: 800;
-    font-size:190px;
+    font-size:120px;
     margin: 0px;
     padding: 0px;
     text-align: center;
@@ -142,7 +164,9 @@ div.google_play:hover {
 }
 
 .lang_shortcut {
-    margin-top:200px;
+    margin-top:300px;
+    background-color: #313031;
+
 }
 
 
@@ -153,7 +177,6 @@ div.google_play:hover {
 .lang-panel, .bottom-panel-bottom {
     padding-top:10px;
     padding-bottom: 24px;
-    margin-bottom: 100px;
     background-color: #313031;
     color:White;
 }
@@ -198,7 +221,7 @@ div.column_right {
     float: left;
 }
 .platforms {
-    margin-top:180px;
+    margin-top:240px;
 }
 .platforms img {
     width:80px;
@@ -218,14 +241,14 @@ div.column_right {
 #online_demo_open {
     -moz-border-radius: 15px;
     border-radius: 15px;
-    padding:20px;
+    padding:40px;
 
-    width:460px;
+    width:500px;
     background-color:Black;
     border-style:solid;
     margin:0px;
-    margin-top:200px;
-    margin-bottom:200px;
+    margin-top:0px;
+    margin-bottom:0px;
     margin-left:50px;
     color:Black;
     font-weight:bold;
@@ -236,3 +259,4 @@ div.column_right {
     font-weight: bold;
     margin-top:20px;
 }
+
