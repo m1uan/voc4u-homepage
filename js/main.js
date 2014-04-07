@@ -1,12 +1,12 @@
 $(document).init(function(){
-    $(window).on('hashchange',function(){
-        langChange(function(lang){
-           // $('.' + lang).scrollTop(100);
-        });
-
-        //alert( lang );
-    });
-    langChange();
+//    $(window).on('hashchange',function(){
+//        langChange(function(lang){
+//           // $('.' + lang).scrollTop(100);
+//        });
+//
+//        //alert( lang );
+//    });
+//    langChange();
     //$('.eng1').fadeIn();
     //$('.english' ).fadeIn();
 
