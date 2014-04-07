@@ -331,7 +331,21 @@
 
               <script type="text/javascript" src="js/skrollr.min.js"></script>
               <script type="text/javascript">
-                  var s = skrollr.init();
+                  var menuShow = false;
+                  var s = skrollr.init({
+                      render: function(data) {
+                          //Log the current scroll position.
+                          if(data.curTop > 500 && !menuShow){
+                              $('#platforms_place').fadeIn(3000);
+                              menuShow = true;
+                          } else if(data.curTop < 500 && menuShow) {
+                              $('#platforms_place').fadeOut();
+                              menuShow = false;
+                          }
+
+                          console.log(data.curTop);
+                      }
+                  });
               </script>
 
 
