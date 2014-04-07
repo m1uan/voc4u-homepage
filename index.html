@@ -56,12 +56,12 @@
                     <span>{{lang.display}}</span>
                 </a>
             </div>
-              <div class="clear"></div>
+            <div class="clear"></div>
 
           </div>
 
           </div>
-              <div class="platforms" data-ng-init="platformsAnimate()">
+              <div id="platforms_flow" class="platforms" data-ng-init="platformsAnimate()">
                   <a id="platform_android" href="https://play.google.com/store/apps/details?id=com.voc4u" onclick="_gaq.push(['_trackEvent', 'google_play', 'com.voc4u'])"><img class="platform_img" src="img/platforms/android.png" /></a>
                   <a id="platform_osx" ng-click="onLetMeKnow('Apple OSX')" onclick="_gaq.push(['_trackEvent', 'apple_store', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/apple.png" /></a>
                   <a id="platform_blackberry" ng-click="onLetMeKnow('Blackbery OS')" onclick="_gaq.push(['_trackEvent', 'blackberry', 'com.voc4u'])"><img  class="platform_img" class="platform_img" src="img/platforms/blackberry.png" /></a>
@@ -72,7 +72,43 @@
                   {{ 'text1' | translate }}
               </h3>
 
+              <div class="platforms full-block" id="platforms_place" >
 
+
+
+                  <a  href="https://play.google.com/store/apps/details?id=com.voc4u" onclick="_gaq.push(['_trackEvent', 'google_play', 'com.voc4u'])">
+                      <div>
+                          <img class="platform_img" src="img/platforms/android.png" />
+                          <div>Android</div>
+                      </div>
+                  </a>
+
+                  <a  ng-click="onLetMeKnow('Apple OSX')" onclick="_gaq.push(['_trackEvent', 'apple_store', 'com.voc4u'])">
+                      <div>
+                          <img  class="platform_img" class="platform_img" src="img/platforms/apple.png" />
+                          <div>Apple OS X</div>
+                      </div>
+                  </a>
+                  <a  ng-click="onLetMeKnow('Blackbery OS')" onclick="_gaq.push(['_trackEvent', 'blackberry', 'com.voc4u'])">
+                      <div>
+                          <img  class="platform_img" class="platform_img" src="img/platforms/blackberry.png" />
+                          <div>BlackBerry</div>
+                      </div>
+                  </a>
+                  <a  ng-click="onLetMeKnow('Windows Phone')" onclick="_gaq.push(['_trackEvent', 'windows_phone', 'com.voc4u'])">
+                      <div>
+                          <img  class="platform_img" class="platform_img" src="img/platforms/wp.png" />
+                          <div>Windows</div>
+                      </div>
+                  </a>
+                  <a  ng-click="onLetMeKnow('Firefox OS')" onclick="_gaq.push(['_trackEvent', 'firefox_os', 'com.voc4u'])">
+                      <div>
+                          <img  class="platform_img" class="platform_img" src="img/platforms/firefoxos.png" />
+                          <div>Firefox OS</div>
+                      </div>
+                  </a>
+                  <div class="clear" ></div>
+              </div>
 
 
 
