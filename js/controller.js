@@ -14,10 +14,10 @@ app.config(function ( $translateProvider, $locationProvider) {
 
     $translateProvider.translations('france', translateFR);
     $translateProvider.translations('chinese', translateZH);
-    $translateProvider.useStaticFilesLoader({
-        prefix: 'ajax/locale-',
-        suffix: '.json'
-    });
+//    $translateProvider.useStaticFilesLoader({
+//        prefix: 'ajax/locale-',
+//        suffix: '.json'
+//    });
 
     $translateProvider.preferredLanguage('en');
 
@@ -33,7 +33,7 @@ $scope.langs= [
     {display:'Český', flag:'cs', link:'#czech'}
     ,{display:'Deutsch', flag:'de', link:'#de'}
     ,{display:'English', flag:'en', link:'#en'}
-    ,{display:'Français', flag:'fr', link:'#french'}
+    //,{display:'Français', flag:'fr', link:'#french'}
     ,{display:'Polski', flag:'pl', link:'#poland'}
     ,{display:'Português', flag:'pt', link:'#portugal'}
     ,{display:'по-ру́сски', flag:'ru', link:'#russia'}
