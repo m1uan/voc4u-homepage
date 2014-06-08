@@ -300,3 +300,31 @@ div.column_right {
     margin-top:20px;
 }
 
+.voc4u-screen, .voc4u-screen:visited {
+    position: absolute;
+    right:20px;
+    top:50px;
+    width:150px;
+    float:right;
+    font-weight: bolder;
+    font-size:15px;
+    text-align: right;
+    color:white;
+    text-decoration: none;
+}
+
+.voc4u-screen:hover {
+    color:lightcyan;
+    text-decoration: none;
+}
+
+.voc4u-screen p {
+    margin:0px;
+}
+
+.voc4u-screen  img{
+    float:left;
+    height: 75px;
+    margin:-10px;
+}
+
