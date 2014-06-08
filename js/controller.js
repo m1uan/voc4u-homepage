@@ -13,7 +13,7 @@ app.config(function ( $translateProvider, $locationProvider) {
     $translateProvider.translations('portugal', translatePT);
 
     $translateProvider.translations('france', translateFR);
-
+    $translateProvider.translations('china', translateZH);
     $translateProvider.useStaticFilesLoader({
         prefix: 'ajax/locale-',
         suffix: '.json'
@@ -37,6 +37,7 @@ $scope.langs= [
     ,{display:'Polski', flag:'pl', link:'#poland'}
     ,{display:'Português', flag:'pt', link:'#portugal'}
     ,{display:'по-ру́сски', flag:'ru', link:'#russia'}
+    ,{display:'中国的', flag:'zh', link:'#chinase'}
 ]
     $scope.changeLang = function(lang){
         $translate.use(lang.slice(1));
